@@ -26,12 +26,8 @@ keyspressed = {
             };
         case 35:{ //H key
           if (_shift) then {
-            if (currentWeapon player == "" or {primaryWeapon player == "" && handgunWeapon player == ""}) then {
-              player action ["SWITCHWEAPON",player,player,1];
-            }
-            else {
-              player action ["SWITCHWEAPON",player,player,-1];
-            };
+              if (vehicle player == player) then {
+                  execVM "bin\client\fn_holster.sqf";
               };
           };
         };
