@@ -5,7 +5,7 @@
 
 class CfgGungame {
 	class Basic {
-		voteTime = 40;
+		voteTime = 25;
 		forceWeaponListAtIndex = -1;
 	};
 	class Arenas {

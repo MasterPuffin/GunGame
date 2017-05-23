@@ -11,7 +11,16 @@ scriptName "fn_spawn";
 
 _arena = (getArray(missionConfigFile >> "CfgGungame" >> "Arenas" >> "data")) select gg_mapindex;
 _spawnpoints = _arena select 3;
+
+// Check if there is a player near the spawnpoint and if yes change it
+_num = 9;
+
+while {_num > 1} do {
 _myspawnpoint = _spawnpoints call BIS_fnc_selectRandom;
+_list = _myspawnpoint nearEntities ["Man", 10];
+_num = count _list;
+sleep 1;
+};
 
 // Set player pos
 player setPosATL _myspawnpoint;

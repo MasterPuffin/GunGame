@@ -1,0 +1,2 @@
+Changed voteing time to 25 seconds
+Spawncheck
