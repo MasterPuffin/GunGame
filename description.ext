@@ -1,3 +1,8 @@
+author="Master Puffin";
+onLoadName = GunGame Tanoa;
+//overviewText="";
+overViewPicture="pictures\Logo.paa";
+
 //disableChannels[]={{0,false,false},{1,false,false},{2,false,false},{3,false,false}};
 disableChannels[]={0,1,2,3,4};
 
@@ -60,7 +65,7 @@ class CfgSounds {
     };
     class ending {
         name = "ending";
-        sound[] = {"\sounds\ending.ogg", 0.5, 1};
+        sound[] = {"\sounds\ending.ogg", 0.3, 1};
         titles[] = {};
     };
 };

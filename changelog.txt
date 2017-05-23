@@ -11,3 +11,4 @@ Version 1.0.0:
   Changed voting time to 25 seconds
   Check if enemys are nearby before spawning
   Automatically selects autofire on spawn
+  Lowered endscreen volume
