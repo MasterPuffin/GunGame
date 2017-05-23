@@ -12,3 +12,5 @@ Version 1.0.0:
   Check if enemys are nearby before spawning
   Automatically selects autofire on spawn
   Lowered endscreen volume
+  Added jumping
+  Added loadingscreen image and title
