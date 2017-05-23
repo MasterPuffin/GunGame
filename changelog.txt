@@ -14,3 +14,4 @@ Version 1.0.0:
   Lowered endscreen volume
   Added jumping
   Added loadingscreen image and title
+  Added weapon holstering
