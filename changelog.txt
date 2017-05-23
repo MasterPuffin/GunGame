@@ -1,2 +1,13 @@
-Changed voteing time to 25 seconds
-Spawncheck
+=========================================================
+                      GUNGAME TANOA
+
+                modified by Master Puffn
+https://forums.bistudio.com/profile/1119956-masterpuffin/
+
+                    Version 1.0.0
+=========================================================
+
+Version 1.0.0:
+  Changed voting time to 25 seconds
+  Check if enemys are nearby before spawning
+  Automatically selects autofire on spawn
