@@ -16,14 +16,14 @@ _spawnpoints = _arena select 3;
 _num = 9;
 
 while {_num > 1} do {
-_myspawnpoint = _spawnpoints call BIS_fnc_selectRandom;
-_list = _myspawnpoint nearEntities ["Man", 10];
+myspawnpoint = _spawnpoints call BIS_fnc_selectRandom;
+_list = myspawnpoint nearEntities ["Man", 10];
 _num = count _list;
 sleep 1;
 };
 
 // Set player pos
-player setPosATL _myspawnpoint;
+player setPosATL myspawnpoint;
 
 // Make player invincble
 player allowDamage false;
