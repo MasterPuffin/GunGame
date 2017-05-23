@@ -32,6 +32,11 @@ player allowDamage false;
 [] spawn gg_fnc_loadLevelLoadout;
 
 [] spawn {
+	_weapon = currentWeapon player;
+	_ammo = player ammo _weapon;
+	player setAmmo [_weapon, 0];
+	player forceWeaponFire [_weapon, "FullAuto"];
+	player setAmmo [_weapon, _ammo];
 	sleep 2;
 	player allowDamage true;
 };
